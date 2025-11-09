@@ -194,8 +194,25 @@ img {
 }
 
 @media screen and (max-width:1024px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
     .item-width {
         width: 100%;
+    }
+
+    #hero .container {
+        width: 95%;
+    }
+
+    .item-width {
+        padding: 0;
+        padding-block: 40px;
+    }
+
+    #hero {
+        padding-inline: 0;
     }
 
 
@@ -1161,6 +1178,14 @@ img {
 
     .become-part {
         padding: 0;
+    }
+
+    .rebelion-head {
+        h2 {
+            font-size: 35px;
+            margin-top: 40px;
+
+        }
     }
 
 }
